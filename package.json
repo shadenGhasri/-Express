@@ -1,0 +1,26 @@
+{
+  "name": "Express",
+  "version": "1.0.0",
+  "description": "express npm",
+  "main": "app.js",
+  "scripts": {
+    "devStart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehdisheikhbaqeri/Express.git"
+  },
+  "keywords": [],
+  "author": "Mazlom.co",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehdisheikhbaqeri/Express/issues"
+  },
+  "homepage": "https://github.com/mehdisheikhbaqeri/Express#readme",
+  "dependencies": {
+    "ejs": "^3.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

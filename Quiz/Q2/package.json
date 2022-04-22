@@ -1,0 +1,13 @@
+{
+  "name": "Q2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "q2.js",
+  "scripts": {
+    "devSave": "nodemon q2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mazlom.co",
+  "license": "MIT"
+}

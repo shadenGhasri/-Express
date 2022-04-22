@@ -1,15 +1,15 @@
 {
-  "name": "quiz2",
+  "name": "Quiz",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "q1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon q1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mazlom.co",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.3"
   },
