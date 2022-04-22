@@ -1,10 +1,9 @@
-const express = require("express");
+const express =require("express");
 const app = express();
 
-app.get("/shogol", (req, res) => {
-  res.send(`i love shogol ${req.query.num}`);
+app.get("/search", (req, res) => {
+  const{q} = req.query;
+  res.send(`i want ${q} pizza `);
 });
 
-app.listen("3666", (req, res) => {
-  console.log("I love coffee");
-});
+app.listen(4679);
